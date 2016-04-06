@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <HorizontalScrollView
+        android:id="@+id/elite_hscrollView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:scrollbars="horizontal"
+        android:fillViewport="true">
+
+        <RadioGroup
+            android:id="@+id/elite_menu_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/elite_top_total"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:text="全部" />
+
+            <RadioButton
+                android:id="@+id/elite_top_video"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:button="@null"
+                android:text="视频" />
+
+            <RadioButton
+                android:id="@+id/elite_top_image"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:button="@null"
+                android:text="图片"
+                android:checked="false" />
+            <RadioButton
+                android:id="@+id/elite_top_joke"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:button="@null"
+                android:text="段子" />
+            <RadioButton
+                android:id="@+id/elite_top_ranking"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:button="@null"
+                android:text="排行" />
+            <RadioButton
+                android:id="@+id/elite_top_society"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:text="社会" />
+            <RadioButton
+                android:id="@+id/elite_top_longText"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:gravity="center"
+                android:text="长文" />
+        </RadioGroup>
+
+    </HorizontalScrollView>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/elite_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

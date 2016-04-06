@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">BuDeJie</string>
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_ins">小主快登录</string>
+    <string name="action_sign_forget">发送重置密码邮件</string>
+    <string name="action_sign_in_short">注册</string>
+    <string name="error_invalid_email">这个邮件地址是无效的</string>
+    <string name="error_invalid_password">密码太短，请重新输入！</string>
+    <string name="error_incorrect_password">这个密码是不正确的</string>
+    <string name="error_field_required">请填写邮邮箱</string>
+    <string name="title_activity_logins">登录</string>
+    <string name="title_activity_register">注册</string>
+    <string name="title_activity_main">主页面</string>
+    <string name="title_activity_UserPro">用户协议</string>
+    <string name="title_activity_password">重置密码</string>
+    <string name="title_activity_apply">应用中心</string>
+
+
+    <!-- 注册 -->
+    <string name="title">标题</string>
+    <string name="registration">登记 </string>
+    <string name="Exit">退出</string>
+    <string name="Register">注册</string>
+    <string name="Login">登录</string>
+    <!-- 关注 -->
+    <string name="textview_a">"快快登陆吧，关注百思最in牛人"</string>
+    <string name="textview_b">"好友动态让你过吧瘾儿，噢耶！"</string>
+    <!-- 忘记密码 -->
+    <string name="forget_Emain">请选择你要找回密码的邮箱格式</string>
+    <string name="spinner_help">邮箱类型选择</string>
+    <string-array name="spinner_email">
+        <item>"@qq.com"</item>
+        <item>"@163.com"</item>
+        <item>"@126.com"</item>
+        <item>"@yeah.net"</item>
+        <item>"@188.com"</item>
+        <item>"@sina.com.cn"</item>
+        <item>"@vip.sina.com"</item>
+        <item>"@vip.163.com"</item>
+        <item>"@vip.126.com"</item>
+        <item>"@gmail.com"</item>
+        <item>"@fudan.edu.cn"</item>
+        <item>"@icloud.com"</item>
+        <item>"@bankcomm.com"</item>
+        <item>"@pku.edu.cn"</item>
+        <item>"@bjtu.edu.cn"</item>
+        <item>"@zju.edu.com"</item>
+        <item>"@yahoo.co.jp"</item>
+        <item>"@sjtu.edu.cn"</item>
+        <item>"@mails.tsinghua.edu.cn"</item>
+        <item>"@cmbc.com.cn"</item>
+        <item>"@mail.china.com"</item>
+        <item>"@yonyou.com"</item>
+        <item>"@mail.ustc.edu.cn"</item>
+        <item>"@me.com"</item>
+        <item>"@fenqile.com"</item>
+    </string-array>
+</resources>
